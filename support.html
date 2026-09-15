@@ -22,17 +22,16 @@
     "url": "https://myolivehealth.com",
     "logo": "https://myolivehealth.com/image_values/olive_app_icon.jpg",
     "description": "Independent software company organized in Connecticut, USA, building privacy-respecting health and wellness apps for iOS.",
-    "email": "support@myolivehealth.com"
+    "email": "support@myolivehealth.com",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Orange",
       "addressRegion": "CT",
       "addressCountry": "US"
     },
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer support",
-      "email": "support@myolivehealth.com",
+      "email": "support@myolivehealth.com"
     }
   }
   </script>
@@ -397,6 +396,14 @@
       color: rgba(255,255,255,0.2);
     }
 
+    .footer-copy a {
+      color: inherit;
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+
+    .footer-copy a:hover { color: rgba(255,255,255,0.5); }
+
     @media (max-width: 700px) {
       nav { padding: 16px 24px; }
       .hero { padding: 48px 24px 40px; }
@@ -445,9 +452,8 @@
       <div class="contact-block">
         <p><strong>MyOlive Support</strong></p>
         <p>Email: <a href="mailto:support@myolivehealth.com">support@myolivehealth.com</a></p>
-        <p>Phone: <a href="tel:+12036941802">(203) 694-1802</a></p>
         <p>Website: <a href="https://myolivehealth.com">myolivehealth.com</a></p>
-        <p>Operated by DLM Studios LLC · Orange, Connecticut, USA</p>
+        <p>Operated by <a href="https://dlmstudiosllc.com">DLM Studios LLC</a> · Connecticut, USA</p>
       </div>
     </section>
 
@@ -485,7 +491,7 @@
       <li><a href="/terms.html">Terms</a></li>
       <li><a href="/about.html">About</a></li>
     </ul>
-    <span class="footer-copy">&copy; 2026 DLM Studios LLC</span>
+    <span class="footer-copy">&copy; 2026 <a href="https://dlmstudiosllc.com">DLM Studios LLC</a></span>
   </footer>
 
 </body>

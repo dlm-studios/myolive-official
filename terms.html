@@ -23,18 +23,15 @@
     "logo": "https://myolivehealth.com/image_values/olive_app_icon.jpg",
     "description": "Independent software company organized in Connecticut, USA, building privacy-respecting health and wellness apps for iOS.",
     "email": "support@myolivehealth.com",
-    "telephone": "+1-203-694-1802",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Orange",
       "addressRegion": "CT",
       "addressCountry": "US"
     },
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer support",
-      "email": "support@myolivehealth.com",
-      "telephone": "+1-203-694-1802"
+      "email": "support@myolivehealth.com"
     }
   }
   </script>
@@ -210,6 +207,11 @@
     .intro-band strong {
       color: var(--green);
       font-weight: 600;
+    }
+
+    .intro-band a {
+      color: inherit;
+      text-decoration-color: rgba(255,255,255,0.4);
     }
 
     /* MAIN CONTENT */
@@ -399,6 +401,14 @@
       color: rgba(255,255,255,0.2);
     }
 
+    .footer-copy a {
+      color: inherit;
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+
+    .footer-copy a:hover { color: rgba(255,255,255,0.5); }
+
     @media (max-width: 700px) {
       nav { padding: 16px 24px; }
       .hero { padding: 48px 24px 40px; }
@@ -434,7 +444,7 @@
 
   <!-- INTRO BAND -->
   <div class="intro-band">
-    <p>These terms are a contract between you and <strong>DLM Studios LLC</strong>, the company that develops and operates MyOlive. Please read them before using the app.</p>
+    <p>These terms are a contract between you and <strong><a href="https://dlmstudiosllc.com">DLM Studios LLC</a></strong>, the company that develops and operates MyOlive. Please read them before using the app.</p>
   </div>
 
   <div class="gradient-divider"></div>
@@ -448,7 +458,7 @@
 
     <section>
       <h2>2. Who we are</h2>
-      <p>The Service is provided by <strong>DLM Studios LLC</strong>, a limited liability company organized under the laws of the State of Connecticut, United States, operating from Orange, Connecticut (<strong>"DLM Studios," "we," "us,"</strong> or <strong>"our"</strong>).</p>
+      <p>The Service is provided by <strong>DLM Studios LLC</strong>, a limited liability company organized under the laws of the State of Connecticut, United States, operating from Connecticut (<strong>"DLM Studios," "we," "us,"</strong> or <strong>"our"</strong>).</p>
     </section>
 
     <section>
@@ -554,9 +564,8 @@
       <p>Questions about these Terms? Reach out:</p>
       <div class="contact-block">
         <p><strong>DLM Studios LLC</strong></p>
-        <p>Orange, Connecticut, United States</p>
+        <p>Connecticut, United States</p>
         <p>Email: <a href="mailto:support@myolivehealth.com">support@myolivehealth.com</a></p>
-        <p>Phone: <a href="tel:+12036941802">(203) 694-1802</a></p>
         <p>Website: <a href="https://myolivehealth.com">myolivehealth.com</a></p>
       </div>
     </section>
@@ -575,7 +584,7 @@
       <li><a href="/support.html">Support</a></li>
       <li><a href="/about.html">About</a></li>
     </ul>
-    <span class="footer-copy">&copy; 2026 DLM Studios LLC</span>
+    <span class="footer-copy">&copy; 2026 <a href="https://dlmstudiosllc.com">DLM Studios LLC</a></span>
   </footer>
 
 </body>

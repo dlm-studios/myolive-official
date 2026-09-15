@@ -23,18 +23,15 @@
     "logo": "https://myolivehealth.com/image_values/olive_app_icon.jpg",
     "description": "Independent software company organized in Connecticut, USA, building privacy-respecting health and wellness apps for iOS.",
     "email": "support@myolivehealth.com",
-    "telephone": "+1-203-694-1802",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Orange",
       "addressRegion": "CT",
       "addressCountry": "US"
     },
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "privacy",
-      "email": "support@myolivehealth.com",
-      "telephone": "+1-203-694-1802"
+      "email": "support@myolivehealth.com"
     }
   }
   </script>
@@ -399,6 +396,14 @@
       color: rgba(255,255,255,0.2);
     }
 
+    .footer-copy a {
+      color: inherit;
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+
+    .footer-copy a:hover { color: rgba(255,255,255,0.5); }
+
     @media (max-width: 700px) {
       nav { padding: 16px 24px; }
       .hero { padding: 48px 24px 40px; }
@@ -543,10 +548,9 @@
       <h2>Contact us</h2>
       <p>If you have questions about this privacy policy or how we handle your data, please reach out:</p>
       <div class="contact-block">
-        <p><strong>DLM Studios LLC</strong> (operator of MyOlive)</p>
-        <p>Orange, Connecticut, United States</p>
+        <p><strong><a href="https://dlmstudiosllc.com">DLM Studios LLC</a></strong> (operator of MyOlive)</p>
+        <p>Connecticut, United States</p>
         <p>Email: <a href="mailto:privacy@myolivehealth.com">privacy@myolivehealth.com</a></p>
-        <p>Phone: <a href="tel:+12036941802">(203) 694-1802</a></p>
         <p>Website: <a href="https://myolivehealth.com">myolivehealth.com</a></p>
       </div>
     </section>
@@ -566,7 +570,7 @@
       <li><a href="/terms.html">Terms</a></li>
       <li><a href="/about.html">About</a></li>
     </ul>
-    <span class="footer-copy">&copy; 2026 DLM Studios LLC</span>
+    <span class="footer-copy">&copy; 2026 <a href="https://dlmstudiosllc.com">DLM Studios LLC</a></span>
   </footer>
 
 </body>
